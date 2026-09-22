@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MD3 主题直接用 Material 库的 Material3 主题；Android 12+ 跟随系统动态色 -->
+    <style name="AppTheme" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:colorEdgeEffect">@android:color/transparent</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+
+    <!-- 弹窗菜单需要跟着桌面自己的深浅色设置走，这两个变体给 ContextThemeWrapper 用 -->
+    <style name="AppTheme.Light" parent="Theme.Material3.DynamicColors.Light.NoActionBar" />
+    <style name="AppTheme.Dark" parent="Theme.Material3.DynamicColors.Dark.NoActionBar" />
+
+    <style name="Md3PopupAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/md3_popup_in</item>
+        <item name="android:windowExitAnimation">@anim/md3_popup_out</item>
+    </style>
+
+</resources>

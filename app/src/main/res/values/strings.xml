@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">卡片桌面</string>
+    <string name="settings_name">桌面设置</string>
+
+    <string name="section_appearance">外观</string>
+    <string name="section_apps">显示的应用</string>
+    <string name="apps_hint">点击条目切换是否显示，长按拖动排序，「改名」自定义卡片上显示的名称</string>
+
+    <string name="label_card_style">卡片风格</string>
+    <string name="label_dark_mode">深浅色模式</string>
+    <string name="style_dynamic">动态取色</string>
+    <string name="style_icon">图标取色</string>
+    <string name="dark_system">跟随系统</string>
+    <string name="dark_dark">深色</string>
+    <string name="dark_light">浅色</string>
+
+    <string name="action_save">保存</string>
+    <string name="action_select_all">全选</string>
+    <string name="action_select_none">全不选</string>
+    <string name="action_refresh">刷新列表</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_confirm">确定</string>
+    <string name="action_restore">恢复原名</string>
+    <string name="action_rename">改名</string>
+
+    <string name="rename_title">修改卡片名称</string>
+    <string name="rename_hint">卡片上显示的名称</string>
+    <string name="settings_saved">设置已保存</string>
+    <string name="refreshing_apps">正在刷新应用列表</string>
+    <string name="rename_clear_hint">留空表示恢复原名</string>
+</resources>
